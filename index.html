@@ -1,0 +1,189 @@
+<!Doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+        <title>ohrosibit</title>
+        <link rel="stylesheet" href="./styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div id="wrap">
+<!----------------------->
+<!----------------------->
+<!----------------------->
+<!----------------------->
+            <header id="header">
+                <div class="inner">
+                    <h1>
+                        <a href="blog_link">
+                            <s_not_var_logo>
+                                ohrosibit
+                            </s_not_var_logo>
+                        </a>
+                    </h1>
+
+                    <div class="util">
+                        <div class="github">
+                            <button type="button" ><img class="github_img" src="./images/github.png"></img></button>
+                        </div>
+                        <!-- profile을 click 하면 nav 펼쳐짐--->
+                        <div class="profile">
+                            <button type="button"> 
+                                <img class="profile_img" src="./images/profile.jpg"> 
+                            </button>
+                            <nav>
+                                <ul>
+                                    <li class="setting"><a href="#">관리</a></li>
+                                    <li class="write"><a href="#">글쓰기</a></li>
+                                    <li class="login"><a href="#">로그인</a></li>
+                                    <li class="logout"><a href="#">로그아웃</a></li>
+                                </ul>
+                            </nav>
+                        </div>	
+                    </div>
+                </div>
+            </header>
+<!----------------------->
+<!----------------------->
+<!----------------------->
+<!----------------------->
+            <section id="container">
+                <div class="content_wrap">
+<!--             본문             -->
+                    <article_wrep>
+                        <div class="content_container">
+                            <div class="content_title">
+                                <strong class="content_category"><a href="#">카테고리</a></strong>
+                                    <h3 class="title">제목</h3>
+                                        <span class="info_post">작성자</span>
+                                        <span class="txt_bar">날짜</span>
+                                        <s_ad_div>
+                                            <span class="txt_bar"></span><a href="#" class="link_detail">수정</a>
+                                            <span class="txt_bar"></span><a href="#" onclick="" class="link_detail">삭제</a>
+                                        </s_ad_div>
+                                    </span>
+                            </div>
+
+<!--             댓글             -->                                    
+                            <div class="content_reply">
+                                <s_rp>
+                                    <s_rp_input_form>
+                                        <fieldset class="fld_reply">
+                                            <legend class="screen_out">댓글쓰기 폼</legend>
+                                                <s_rp_guest>
+                                                    <div class="writer_info">
+                                                        <span class="info_name">
+                                                            <label for="#" class="lab_info screen_out">이름</label>
+                                                            <span class="wrap_info">
+                                                                <input type="text" name="#" id="#" class="inp_info" placeholder="Name" tabindex="1">
+                                                            </span>
+                                                        </span>
+                                                        <span class="info_pw ">
+                                                            <label for="#" class="lab_info screen_out">비밀번호</label>
+                                                            <span class="wrap_info">
+                                                                <input type="password" name="#" id="#" class="inp_info" placeholder="Password" tabindex="2">
+                                                            </span>
+                                                        </span>
+                                                    </div>
+                                                </s_rp_guest>
+                                                        
+
+                                                <div class="reply_write ">
+                                                    <textarea name="#]" id="#" class="tf_reply" placeholder="여러분의 소중한 댓글을 입력해주세요" tabindex="3"></textarea>
+                                                </div>
+
+                                                <div class="writer_btn">
+                                                    <button type="submit" class="btn_enter" onclick="" tabindex="5">Send</button>
+                                                </div>
+                                            </fieldset>
+                                        </s_rp_input_form>
+                                    </s_rp>
+                            </div>
+                        </div>
+                    </article_wrep>
+
+
+                        
+<!--             사이드바             -->
+                    <aside id="aside" class="sidebar">
+<!--             카테고리             -->
+                        <div class="sidebar-1">
+                                
+
+                            <nav class="category">
+                                <ul class="tt_category">
+                                    <li>
+                                        
+                                            <a href="#" class="link_tit">
+                                                전체보기
+                                            </a>
+                                                
+
+                                    <ul class="category_list">
+                                        <li class>  
+                                            <a href="#" class="link_item">
+                                                개발
+                                            </a> 
+                                        </li>
+                                        
+                                        <li class>  
+                                            <a href="#" class="link_item">
+                                                기록
+                                            </a> 
+                                            <ul class="sub_category_list">
+                                                <li>
+                                                    <a href="#" class="link_tit">
+                                                        일상
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="link_tit">
+                                                        여행
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </li>
+                                </ul>
+                            </nav>
+                            
+                        </div>
+<!--             공지사항             -->
+                            <div class="sidebar-2">
+                                <s_sidebar>
+                                    <s_sidebar_element>
+                                        <s_rct_notice>
+                                            <div class="notice">
+                                                <h2>공지사항</h2>
+                                                <ul>
+                                                    <s_rct_notice_rep>
+                                                        <li><a href="#">공지사항 제목</a></li>
+                                                    </s_rct_notice_rep>
+                                                </ul>
+                                            </div>
+                                        </s_rct_notice>
+                                    </s_sidebar_element>
+                                </s_sidebar>
+                            </div>
+                        </aside>
+                </div>
+            </section>
+            <hr>
+            <footer id="footer">
+                <div class="inner">
+                    <div> 
+                        <a href="#">link</a>
+                        <p class="meta"><s_if_var_footer-text-1>@lkjkroil</s_if_var_footer-text-1></p>
+                    </div>
+                    
+<!--             맨 위로             -->
+                    <a href="#" class="page-top">TOP</a>
+                </div>
+            </footer>
+        </div>
+
+        <script src="./images/script.js"></script>
+    </body>
+</html>
